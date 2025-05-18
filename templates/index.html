@@ -1,0 +1,36 @@
+{% extends "base.html" %}
+{% block title %}Home | Kavyasri{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<div class="flex flex-col items-center justify-center min-h-[60vh] px-4 text-center bg-gradient-to-r from-indigo-500 via-purple-600 to-pink-500 text-white rounded-lg shadow-lg max-w-3xl mx-auto mt-12">
+  <h1 class="text-4xl md:text-5xl font-extrabold mb-4 drop-shadow-lg animate-fadeInDown">
+    Hello, I'm <span class="text-yellow-300">Kavyasri</span> 👋
+  </h1>
+  <p class="text-xl md:text-2xl mb-8 max-w-xl leading-relaxed animate-fadeInUp">
+    Python & Java Developer | Full-Stack Web Developer | Machine Learning Enthusiast
+  </p>
+  <a href="/static/Kavyasri_Rejeti_Resume.pdf" download 
+     class="inline-block bg-yellow-400 text-indigo-900 font-semibold px-8 py-3 rounded-full shadow-lg transition-transform transform hover:scale-105 hover:shadow-xl focus:outline-none focus:ring-4 focus:ring-yellow-300"
+     aria-label="Download Resume">
+    Download Resume
+  </a>
+</div>
+
+<style>
+  @keyframes fadeInDown {
+    0% {opacity: 0; transform: translateY(-20px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  @keyframes fadeInUp {
+    0% {opacity: 0; transform: translateY(20px);}
+    100% {opacity: 1; transform: translateY(0);}
+  }
+  .animate-fadeInDown {
+    animation: fadeInDown 1s ease forwards;
+  }
+  .animate-fadeInUp {
+    animation: fadeInUp 1s ease 0.3s forwards;
+  }
+</style>
+{% endblock %}

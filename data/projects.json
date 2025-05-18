@@ -1,0 +1,53 @@
+[
+  {
+    "title": "Library Management System",
+    "subtitle": "Full-Stack Web Application",
+    "description": [
+      "Designed and developed a comprehensive web application to automate and optimize library operations, including book inventory, user registration, and borrowing management. The system provides secure authentication, real-time search, and a responsive interface for enhanced user interaction. Built using modern technologies to ensure scalability, maintainability, and cross-device compatibility.",
+      "Frontend: Html, CSS, React.js with responsive UI design",
+      "Backend: Node.js and Express.js RESTful APIs",
+      "Features: Role-based access control, secure login, dynamic real-time search, CRUD operations",
+      "Features: Real-time search, CRUD operations for books and users, borrowing history tracking",
+      "Testing: Implemented unit and integration testing to ensure application reliability",
+      "Version Control: Used Git for collaborative development and version management"
+    ]
+  },
+  {
+    "title": "FRAUD DETECTION",
+    "subtitle": "Machine Learning",
+    "description": [
+      "Developed a robust fraud detection system to accurately identify and flag suspicious financial transactions, enhancing security and reducing potential losses. Utilized Python and key supervised learning algorithms to preprocess raw transaction data, engineer critical features, and fine-tune models for optimal performance. Focused on balancing detection sensitivity to minimize false positives without compromising accuracy, ensuring reliable and actionable results. Employed rigorous evaluation metrics to validate the effectiveness and robustness of the model in real-world scenarios.",
+      "Algorithms: Logistic Regression, Random Forest, Gradient Boosting Machines",
+      "Data Processing: Data cleaning, feature extraction, and transformation for improved model input",
+      "Model Optimization: Hyperparameter tuning using grid search and cross-validation",
+      "Evaluation Metrics: Precision, Recall, F1-Score, ROC-AUC to measure model performance and balance false positives/negatives"
+    ]
+  },
+  {
+    "title": "Medicine Donation Web Application",
+    "subtitle": "",
+    "description": [
+      "Live Demo: medicinedonationportal.onrender.com",
+      "Developed a full-stack web application designed to simplify and encourage the donation of unused medicines. The platform allows individuals to register as donors, submit medicine details, and help reduce medical waste by making medicines accessible to those in need.",
+      "Frontend: HTML, CSS, JavaScript",
+      "Backend: Developed using Node.js and Express.js to handle routing and server logic",
+      "Database: MongoDB used for storing donor information and medicine entries",
+      "Authentication: Secure user login and registration for controlled access",
+      "Medicine Donation Form: Allows donors to enter medicine name, expiry date, quantity, and description",
+      "Donation Records: Donors can view and manage their submitted medicines",
+      "Authentication: User login/registration to ensure secure and authenticated donations",
+      "Deployment: Live on Render for easy access and public availability"
+    ]
+  },
+  {
+    "title": "AWS Cloud Virtual Internship – Amazon Web Services (AWS)",
+    "subtitle": "",
+    "description": [
+      "Successfully completed a virtual internship focused on foundational and practical skills in cloud computing using AWS services. Gained hands-on experience in deploying and managing cloud resources through real-time projects and labs provided by AWS.",
+      "AWS Core Services: Hands-on with EC2, S3",
+      "Compute & Storage Management: Launched and configured virtual servers (EC2), set up secure storage with S3 buckets",
+      "Security: Managed user access with IAM roles/policies, configured identity and access management",
+      "Networking: Configured Virtual Private Clouds (VPC), subnets"
+    ]
+  }
+]

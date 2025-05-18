@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% block title %}About | Kavyasri{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<div class="min-h-screen bg-gradient-to-tr from-blue-50 via-white to-gray-50 flex items-center justify-center py-12 px-4 sm:px-6 lg:px-8">
+  <div class="max-w-5xl w-full bg-white bg-opacity-90 backdrop-blur-md rounded-3xl shadow-2xl p-10 space-y-12 border border-blue-100">
+
+    <h2 class="text-5xl font-extrabold tracking-tight text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 text-center mb-10">
+      About Me
+    </h2>
+
+    <section class="prose prose-indigo max-w-none mx-auto text-gray-800 space-y-8">
+      <p class="text-lg leading-relaxed font-semibold">
+        I’m a B.Tech student passionate about building full-stack web applications and solving real-world problems using Python, Java, and machine learning techniques.
+      </p>
+      <p class="text-lg leading-relaxed font-semibold">
+        I specialize in responsive design, clean code, and scalable systems. I'm also skilled in Express.js and Flask, and currently exploring cloud computing with AWS.
+      </p>
+    </section>
+
+    <section class="bg-blue-50 p-6 rounded-2xl shadow-lg hover:shadow-xl transition-shadow duration-300">
+      <h3 class="text-3xl font-bold mb-6 border-b-4 border-gradient-blue pb-3 text-blue-700">
+        Contact Info
+      </h3>
+      <ul class="space-y-4 text-lg text-gray-700 font-medium">
+        <li class="flex items-center space-x-3">
+          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M16 12v4m0 0v4m0-4h4m-4 0h-4"></path></svg>
+          <a href="mailto:kavyarejeti01@gmail.com" class="hover:text-blue-900 underline transition">kavyarejeti01@gmail.com</a>
+        </li>
+        <li class="flex items-center space-x-3">
+          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 10h1l2 3 4-5"></path></svg>
+          <span>+91 7013238510</span>
+        </li>
+        <li class="flex items-center space-x-3">
+          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M21 8v6a2 2 0 0 1-2 2h-2v-8h2a2 2 0 0 1 2 2z"></path></svg>
+          <a href="https://www.linkedin.com/in/kavya-rejeti-52aa89365" target="_blank" class="hover:text-blue-900 underline transition">linkedin.com/in/kavya-rejeti-52aa89365</a>
+        </li>
+        <li class="flex items-center space-x-3">
+          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M12 20l9-5-9-5-9 5 9 5z"></path></svg>
+          <a href="https://github.com/Kavyarejeti" target="_blank" class="hover:text-blue-900 underline transition">github.com/Kavyarejeti</a>
+        </li>
+        <li class="flex items-center space-x-3">
+          <svg class="w-6 h-6 text-blue-500" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M3 5h18M3 10h18M3 15h18M3 20h18"></path></svg>
+          <a href="https://leetcode.com/u/kavya_rejeti/" target="_blank" class="hover:text-blue-900 underline transition">leetcode.com/u/kavya_rejeti/</a>
+        </li>
+      </ul>
+    </section>
+
+    <section class="prose prose-indigo max-w-none mx-auto text-gray-800">
+      <h3 class="text-3xl font-bold mb-5 border-b-4 border-gradient-blue pb-3 text-blue-700">
+        Profile Info
+      </h3>
+      <p class="text-lg leading-relaxed font-medium">
+        Highly motivated and detail-oriented B.Tech student with strong expertise in Python and Java programming,
+        combined with solid analytical and problem-solving skills. Experienced in applying academic concepts to
+        develop efficient and scalable solutions. Seeking to contribute to a dynamic and innovative organization where
+        I can collaborate with diverse teams, drive impactful projects, and accelerate both organizational growth and
+        my professional development. Skilled in building responsive and user-friendly web applications, with a solid
+        foundation in data structures, algorithms, and software development best practices.
+      </p>
+    </section>
+
+    <section class="prose prose-indigo max-w-none mx-auto text-gray-800">
+      <h3 class="text-3xl font-bold mb-5 border-b-4 border-gradient-blue pb-3 text-blue-700">
+        Technical Skills
+      </h3>
+      <ul class="list-disc list-inside text-lg space-y-3 font-semibold">
+        <li>Programming Languages: C, Python, Java</li>
+        <li>Web Development: HTML, CSS, JavaScript, Express.js, MongoDB</li>
+        <li>Machine Learning: Basic implementation</li>
+        <li>Deep Learning: Conceptual understanding</li>
+        <li>Operating Systems: Fundamentals and usage</li>
+        <li>Software Development: DSA, debugging, problem-solving</li>
+      </ul>
+    </section>
+
+  </div>
+</div>
+
+{% endblock %}

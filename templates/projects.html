@@ -1,0 +1,67 @@
+{% extends "base.html" %}
+{% block title %}Projects | Kavyasri{% endblock %}
+{% block content %}
+<link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+<div class="min-h-screen bg-gradient-to-tr from-blue-50 via-white to-purple-100 py-12 px-6 sm:px-12 lg:px-24">
+  <div class="max-w-7xl mx-auto">
+    <h2 class="text-5xl font-extrabold text-center mb-16 text-transparent bg-clip-text bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600">
+      Projects
+    </h2>
+
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-10">
+      
+      <!-- Library Management System -->
+      <div class="bg-white bg-opacity-80 backdrop-blur-md border border-purple-200 rounded-3xl shadow-2xl p-8 transition-transform hover:scale-105 animate-fadeInUp">
+        <h3 class="text-2xl font-bold text-blue-700 mb-2">📚 Library Management System</h3>
+        <p class="mb-4 font-semibold text-purple-700">Full-Stack Web Application</p>
+        <p class="text-gray-800 mb-2">Designed and developed a comprehensive web application to automate and optimize library operations, including book inventory, user registration, and borrowing management. The system provides secure authentication, real-time search, and a responsive interface for enhanced user interaction. Built using modern technologies to ensure scalability, maintainability, and cross-device compatibility.</p>
+        <p class="text-gray-700"><strong>Frontend:</strong> Html, CSS, React.js with responsive UI design</p>
+        <p class="text-gray-700"><strong>Backend:</strong> Node.js and Express.js RESTful APIs</p>
+        <p class="text-gray-700"><strong>Features:</strong> Role-based access control, secure login, dynamic real-time search, CRUD operations</p>
+        <p class="text-gray-700"><strong>Features:</strong> Real-time search, CRUD operations for books and users, borrowing history tracking</p>
+        <p class="text-gray-700"><strong>Testing:</strong> Implemented unit and integration testing to ensure application reliability</p>
+        <p class="text-gray-700"><strong>Version Control:</strong> Used Git for collaborative development and version management</p>
+      </div>
+
+      <!-- Fraud Detection -->
+      <div class="bg-white bg-opacity-80 backdrop-blur-md border border-purple-200 rounded-3xl shadow-2xl p-8 transition-transform hover:scale-105 animate-fadeInUp">
+        <h3 class="text-2xl font-bold text-blue-700 mb-2">🔍 FRAUD DETECTION</h3>
+        <p class="mb-4 font-semibold text-purple-700">Machine Learning</p>
+        <p class="text-gray-800 mb-2">Developed a robust fraud detection system to accurately identify and flag suspicious financial transactions, enhancing security and reducing potential losses. Utilized Python and key supervised learning algorithms to preprocess raw transaction data, engineer critical features, and fine-tune models for optimal performance. Focused on balancing detection sensitivity to minimize false positives without compromising accuracy, ensuring reliable and actionable results. Employed rigorous evaluation metrics to validate the effectiveness and robustness of the model in real-world scenarios.</p>
+        <p class="text-gray-700"><strong>Algorithms:</strong> Logistic Regression, Random Forest, Gradient Boosting Machines</p>
+        <p class="text-gray-700"><strong>Data Processing:</strong> Data cleaning, feature extraction, and transformation for improved model input</p>
+        <p class="text-gray-700"><strong>Model Optimization:</strong> Hyperparameter tuning using grid search and cross-validation</p>
+        <p class="text-gray-700"><strong>Evaluation Metrics:</strong> Precision, Recall, F1-Score, ROC-AUC to measure model performance and balance false positives/negatives</p>
+      </div>
+
+      <!-- Medicine Donation Web Application -->
+      <div class="bg-white bg-opacity-80 backdrop-blur-md border border-purple-200 rounded-3xl shadow-2xl p-8 transition-transform hover:scale-105 animate-fadeInUp">
+        <h3 class="text-2xl font-bold text-blue-700 mb-2">💊 Medicine Donation Web Application</h3>
+        <p class="text-gray-800 mb-2"><strong>Live Demo:</strong> <a href="https://medicinedonationportal.onrender.com" class="text-blue-600 underline" target="_blank">medicinedonationportal.onrender.com</a></p>
+        <p class="text-gray-800 mb-2">Developed a full-stack web application designed to simplify and encourage the donation of unused medicines. The platform allows individuals to register as donors, submit medicine details, and help reduce medical waste by making medicines accessible to those in need.</p>
+        <p class="text-gray-700"><strong>Frontend:</strong> HTML, CSS, JavaScript</p>
+        <p class="text-gray-700"><strong>Backend:</strong> Developed using Node.js and Express.js to handle routing and server logic</p>
+        <p class="text-gray-700"><strong>Database:</strong> MongoDB used for storing donor information and medicine entries</p>
+        <p class="text-gray-700"><strong>Authentication:</strong> Secure user login and registration for controlled access</p>
+        <p class="text-gray-700"><strong>Medicine Donation Form:</strong> Allows donors to enter medicine name, expiry date, quantity, and description</p>
+        <p class="text-gray-700"><strong>Donation Records:</strong> Donors can view and manage their submitted medicines</p>
+        <p class="text-gray-700"><strong>Authentication:</strong> User login/registration to ensure secure and authenticated donations</p>
+        <p class="text-gray-700"><strong>Deployment:</strong> Live on Render for easy access and public availability</p>
+      </div>
+
+      <!-- AWS Internship -->
+      <div class="bg-white bg-opacity-80 backdrop-blur-md border border-purple-200 rounded-3xl shadow-2xl p-8 transition-transform hover:scale-105 animate-fadeInUp">
+        <h3 class="text-2xl font-bold text-blue-700 mb-2">☁️ AWS Cloud Virtual Internship</h3>
+        <p class="mb-4 font-semibold text-purple-700">Amazon Web Services (AWS)</p>
+        <p class="text-gray-800 mb-2">Successfully completed a virtual internship focused on foundational and practical skills in cloud computing using AWS services. Gained hands-on experience in deploying and managing cloud resources through real-time projects and labs provided by AWS.</p>
+        <p class="text-gray-700"><strong>AWS Core Services:</strong> Hands-on with EC2, S3</p>
+        <p class="text-gray-700"><strong>Compute & Storage Management:</strong> Launched and configured virtual servers (EC2), set up secure storage with S3 buckets</p>
+        <p class="text-gray-700"><strong>Security:</strong> Managed user access with IAM roles/policies, configured identity and access management</p>
+        <p class="text-gray-700"><strong>Networking:</strong> Configured Virtual Private Clouds (VPC), subnets</p>
+      </div>
+
+    </div>
+  </div>
+</div>
+{% endblock %}

@@ -49,5 +49,18 @@
       "Security: Managed user access with IAM roles/policies, configured identity and access management",
       "Networking: Configured Virtual Private Clouds (VPC), subnets"
     ]
+  },
+  {
+    "title": "OnPharma – Online Pharmacy Platform",
+    "subtitle": "Full-Stack Web Application",
+    "description": [
+      "GitHub Repository: https://github.com/Kavyarejeti/onpharma.git",
+      "Developed an online pharmacy platform that enables users to search, view, and order medicines efficiently. The system supports user registration, medicine catalog browsing, and order placement, providing a convenient solution for online medicine access.",
+      "Frontend: HTML, CSS for responsive and user-friendly UI",
+      "Backend: PHP used to manage server-side logic and handle form submissions",
+      "Database: MySQL used to store medicine inventory, user data, and order records",
+      "Authentication: User login and registration with session-based access control",
+      "Deployment: Developed for local and shared hosting environments, compatible with XAMPP/WAMP"
+    ]
   }
 ]
